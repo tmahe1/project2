@@ -1,0 +1,74 @@
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.gridstats {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+}
+.jazzlogo {
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	border: 10px black;
+}
+.donovanmitchell {
+	grid-column-start: 2 ;
+	grid-coumn-end: span 1;
+	border: 10px black;
+	margin-left: 200px;
+}
+body {
+	background-image: linear-gradient(to right, #00471B, #F9A01B, #002B5C) 
+}
+h1 {
+font-family: 'Special Elite', cursive;
+font-size: 80px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+table, th, td {
+    border: 2px solid black;
+	font-size: 30px;
+	font-family: 'Special Elite', cursive;
+	padding: 10px;
+}
+h2 {
+	font-family: 'Special Elite', cursive;
+	font-size: 50px;
+}
+h3 {
+	font-family: 'Special Elite', cursive;
+	font-size: 40px;
+}
+.table {
+	grid-column-start: 2;
+	grid-column-end: span 2;
+}
